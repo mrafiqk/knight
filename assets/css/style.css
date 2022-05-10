@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+
   }
 }
 /*--------------------------------------------------------------
@@ -419,7 +420,18 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+/* -------------------------------------------------- */
+/* #paragraph */
+/* -------------------------------------------------- */
+.paragraph p{
+  color: #959595;
+}
+.paragraph p a i{
+  color: #eb0a0a;
+}
+.paragraph .icon-box p{
+  margin-left: 60px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -438,12 +450,19 @@ section {
   color: #959595;
   margin-left: 60px;
 }
+.services ol li {
+  color: #959595;
+  
+  border: none;
+
+}
 .services .image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
 }
+
 
 /*--------------------------------------------------------------
 # Featured
@@ -452,13 +471,36 @@ section {
   padding: 40px 0 0 0;
   background: white;
 }
+.featured ol li{
+  border: none;
+}
+/* .featured1 {
+  color: #959595;
+} */
+.featured ul li p{
+  color: #959595;
+
+}
+.featured  li ol li{
+  color: #959595;
+
+}
+.featured li p{
+  color: #959595;
+
+}
+.featuredpoints {
+  color: #959595;
+}
 .featured .nav-tabs {
   border: 0;
 }
 .featured .nav-link {
   border: 0;
   padding: 20px;
-  color: #151515;
+  /* color: #151515;  */
+  color: #7cc576;
+
   transition: 0.3s;
 }
 .featured .nav-link h4 {
@@ -470,7 +512,7 @@ section {
   color: #7cc576;
 }
 .featured .nav-link p {
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 0;
 }
 .featured .nav-link.active {
@@ -479,6 +521,9 @@ section {
 .featured .nav-link.active h4 {
   color: #7cc576;
 }
+/* .featured .nav-link.active p {
+  color: #959595;
+} */
 .featured .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
@@ -507,6 +552,10 @@ section {
   background: whitesmoke;
   padding: 0;
 }
+.why-us ol li{
+  border:none;
+}
+
 .why-us .content {
   padding: 60px 100px 0 100px;
 }
